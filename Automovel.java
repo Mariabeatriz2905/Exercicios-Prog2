@@ -1,6 +1,7 @@
 public class Automovel {
     private String matricula; //atributos
     private String marca;
+
     private int cilindrada;
     private static final String MATRICULA_POR_OMISSAO = "sem matrícula";
     private static final String MARCA_POR_OMISSAO = "sem marca";
@@ -72,7 +73,7 @@ public class Automovel {
     public boolean isCilindradaMaior(Automovel outroAutomovel) {
         return this.cilindrada > outroAutomovel.getCilindrada();
     }
-
+// maior cilindrada
     public boolean isCilindradaMaior(int cilindrada) {
         if (this.cilindrada > cilindrada) {
             return true;
