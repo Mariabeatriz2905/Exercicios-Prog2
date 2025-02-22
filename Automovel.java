@@ -1,3 +1,4 @@
+// início da resolução exercício da class automóvel
 public class Automovel {
     private String matricula; //atributos
     private String marca;
